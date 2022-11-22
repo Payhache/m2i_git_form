@@ -35,5 +35,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo $index,
-          echo ${{githubName}},
           echo ${{GITHUB_EVENT_NAME}},
